@@ -1,4 +1,4 @@
-****************************************************************************
+ï»¿****************************************************************************
 yumyumapp
 http://yumyumapp.appspot.com/
 ****************************************************************************
@@ -6,8 +6,8 @@ http://yumyumapp.appspot.com/
 Date: Sun 03/27/2011
 
 I. Description
-  Google App Engine‚Å“®‚­RSSƒŠ[ƒ_[(‚É‚È‚é—\’è‚Ì•¨)‚Å‚·B
-  Python‚Å‘‚©‚ê‚Ä‚¢‚Ü‚·B
+  Google App Engineã§å‹•ãRSSãƒªãƒ¼ãƒ€ãƒ¼(ã«ãªã‚‹äºˆå®šã®ç‰©)ã§ã™ã€‚
+  Pythonã§æ›¸ã‹ã‚Œã¦ã„ã¾ã™ã€‚
     
 II. Contatct
-  TwitterID : yu_yum
+  TwitterID : yu_yum (http://twitter.com/yu_yum)
