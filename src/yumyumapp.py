@@ -60,18 +60,7 @@ class AddSite(webapp.RequestHandler):
 			userData.ref = siteData
 			userData.put()
 			self.redirect('/')
-#		if result.status_code == 200:
-#			xml = ElementTree.fromstring(result.content)
-#			channel = xml.find("channel")
-#			self.response.out.write("<p>%s</p>" % channel.find("title").text)
-#			items = channel.findall("item")
-#			i = 1
-#			for item in items:
-#				self.response.out.write("<p>Item%d : <a href=\"%s\">%s</a><br>" % (i, item.find("link").text, item.find("title").text))
-#				description = item.find("description")
-#				if description != None:
-#					self.response.out.write("Content : %s</p>" % description.text)
-#				i += 1
+
 				
 					
 #			title = xml.find("title")
