@@ -28,6 +28,8 @@ class MainPage(webapp.RequestHandler):
 		query = UserData.all()
 		query.filter('user =', user)
 		results = query.fetch(10)
+		path = os.path.join(os.path.dirname(__file__), 'index.html')
+		self.response.out.write(template.render(path, None))
 		for result in results:
 			siteData = result.ref
 			xml = ElementTree.fromstring(siteData.data)
@@ -41,8 +43,9 @@ class MainPage(webapp.RequestHandler):
 				if description != None:
 					self.response.out.write("Content : %s</p>" % description.text)
 				i += 1
-		path = os.path.join(os.path.dirname(__file__), 'index.html')
+		path = os.path.join(os.path.dirname(__file__), 'footer.html')
 		self.response.out.write(template.render(path, None))
+
 
 class AddSite(webapp.RequestHandler):
 	def post(self):
